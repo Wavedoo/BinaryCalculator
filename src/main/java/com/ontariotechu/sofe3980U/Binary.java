@@ -79,7 +79,13 @@ public class Binary
         return result;
 
     }
-
+    /**
+     * Returns the or value of two  binary variables. For more information, visit <a href="https://learn.sparkfun.com/tutorials/binary/bitwise-operators#:~:text=Bitwise%20operators%20perform%20functions%20bit,throughout%20both%20electronics%20and%20programming."> Bitwise operators on binary numbers </a>.
+     *
+     * @param num1 The first or object
+     * @param num2 The second or object
+     * @return A binary variable with a value of <i>num1 or num2</i>.
+     */
     public static Binary or(Binary num1,Binary num2)
     {
         // the index of the first digit of each number
@@ -106,6 +112,13 @@ public class Binary
         Binary result=new Binary(num3);  // create a binary object with the calculated value.
         return result;
     }
+    /**
+     * Returns the and value of two  binary variables. For more information, visit <a href="https://learn.sparkfun.com/tutorials/binary/bitwise-operators#:~:text=Bitwise%20operators%20perform%20functions%20bit,throughout%20both%20electronics%20and%20programming."> Bitwise operators on binary numbers </a>.
+     *
+     * @param num1 The first and object
+     * @param num2 The second and object
+     * @return A binary variable with a value of <i>num1 and num2</i>.
+     */
     public static Binary and(Binary num1,Binary num2)
     {
         // the index of the first digit of each number
@@ -125,7 +138,13 @@ public class Binary
         Binary result=new Binary(num3);  // create a binary object with the calculated value.
         return result;
     }
-
+    /**
+     * Multiplying two binary variables. For more information, visit <a href="https://www.cuemath.com/numbers/binary-multiplication/"> Binary Multiplication </a>.
+     *
+     * @param num1 The multiplier object
+     * @param num2 The multiplicand object
+     * @return A binary variable with a value of <i>num1 × num2</i>.
+     */
     public static Binary multiply(Binary num1,Binary num2)
     {
         // the index of the first digit of each number
