@@ -79,6 +79,7 @@ public class Binary
         return result;
 
     }
+
     public static Binary or(Binary num1,Binary num2)
     {
         // the index of the first digit of each number
